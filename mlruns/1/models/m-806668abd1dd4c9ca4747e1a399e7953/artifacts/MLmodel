@@ -1,0 +1,29 @@
+artifact_path: /workspaces/MLFLOWSTARTER/2-DLMLFLOW/mlruns/1/models/m-806668abd1dd4c9ca4747e1a399e7953/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.1
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.11.0+cu130
+is_signature_from_type_hint: false
+mlflow_version: 3.10.1
+model_id: m-806668abd1dd4c9ca4747e1a399e7953
+model_size_bytes: 9753
+model_uuid: m-806668abd1dd4c9ca4747e1a399e7953
+prompts: null
+run_id: a1c3a3179e95421dbe7fcfe594a6fb9f
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1, 11]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-04-06 11:34:11.788290'
